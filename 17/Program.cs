@@ -10,6 +10,12 @@ namespace _17
     {
         static void Main(string[] args)
         {
+            int num1= 30;
+            int num2 = 25;
+
+            int ElMay = Mayor(num1, num2);
+            Console.WriteLine("cual es el numero mayor: "+ElMay);
+
         }
 
         static int Mayor(int a ,int b)
