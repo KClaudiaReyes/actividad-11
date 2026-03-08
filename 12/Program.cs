@@ -10,10 +10,13 @@ namespace _12
     {
         static void Main(string[] args)
         {
+
+            Restar(2025,30);
         }
-        static void restar(int a, int b)
+        static void Restar(int a, int b)
         {
             int resta= a-b;
+            Console.WriteLine("el resultado de la resta es: "+resta);
         }
     }
 }
