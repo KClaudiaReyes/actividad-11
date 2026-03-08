@@ -11,6 +11,12 @@ namespace _18
         static void Main(string[] args)
         {
             int num1 = 27;
+            int num2 = 45;
+            int num3 = 30;
+
+            int ElMenor = MenorDeTRes(num1, num2, num3);
+            Console.WriteLine("Cual es el menor entre: " + num1 + " ," + num2 + ", " + num3);
+                Console.WriteLine(" el menor es: " +ElMenor);
         }
         static int MenorDeTRes(int a,int b,int c)
         {
