@@ -10,8 +10,10 @@ namespace _19
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("es multiplo?" + EsMultiplo(15,4));
+            int num1 = 30;
+            int num2 = 4;
+            bool multiplo = EsMultiplo(num1,num2);
+            Console.WriteLine("es multiplo " + num1+ " de  "+num2+"  " + multiplo);
         }
 
         static bool EsMultiplo(int n , int m)
