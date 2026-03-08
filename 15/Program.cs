@@ -4,22 +4,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _14
+namespace _15
 {
     internal class Program
     {
         static void Main(string[] args)
         {
 
-            double r = Dividir(90,3);
-            Console.WriteLine("el resultado es: "+r);
-                
         }
 
-       static double Dividir(double a, double b)
+        static bool EsPar(int n)
         {
-             return a / b;
-            
+            if (n % 2 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
         }
     }
 }
