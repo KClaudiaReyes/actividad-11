@@ -11,10 +11,12 @@ namespace _15
         static void Main(string[] args)
         {
 
+                Console.WriteLine("es par? "+EsPar(30));
         }
 
         static bool EsPar(int n)
         {
+
             if (n % 2 == 0)
             {
                 return true;
