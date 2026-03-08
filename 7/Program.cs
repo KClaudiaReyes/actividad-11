@@ -10,7 +10,13 @@ namespace _7
     {
         static void Main(string[] args)
         {
-
+            MostrarDoble(10);
         }
+        static void MostrarDoble(int n )
+        {
+            int total = n * 2;
+            Console.WriteLine( "El doble de "+ n +" es igual a "+total);
+        }
+
     }
 }
