@@ -10,11 +10,13 @@ namespace _13
     {
         static void Main(string[] args)
         {
+            Multiplicar(5,6);
         }
 
         static void Multiplicar(int a, int b)
         {
-            int multiplicacion = a * b;
+            int result = a * b;
+           Console.WriteLine("el resultado es:"+result);      
         }
     }
 }
