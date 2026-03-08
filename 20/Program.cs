@@ -11,7 +11,10 @@ namespace _20
     {
         static void Main(string[] args)
         {
-            string frase = " programacion";
+            string palabra = " programacion";
+
+            int total = ContarLetras(palabra);
+            Console.WriteLine("el texto: "+palabra+" tiene " +total+ " Caracteres " );
         }
 
         static int ContarLetras(string texto)
