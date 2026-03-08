@@ -10,10 +10,18 @@ namespace _22
     {
         static void Main(string[] args)
         {
+            string resultado = Repetir("ingenieria",5);
+            Console.WriteLine(resultado);
         }
-        static int Repetir(string texto,int veces)
+        static string Repetir(string texto,int veces)
         {
+            string cont = " ";
 
+            for (int i=0; i < veces; i++)
+            {
+                cont += texto + " ";
+            }
+            return cont;
         }
     }
 }
