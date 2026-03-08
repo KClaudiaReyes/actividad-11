@@ -15,6 +15,7 @@ namespace _2
             MostrarMensaje();
             Linea();
             MostrarMenu();
+            MostrarNombre(" Karol");
         }
 
         static void Saludar ()
@@ -47,6 +48,9 @@ namespace _2
             Console.WriteLine(" 2. Mostrar ");
             Console.WriteLine(" 3. Salir ");
         }
-
+        static void MostrarNombre(string nombre)
+        {
+            Console.WriteLine(" HOLA "+nombre);
+        }
     }
 }
