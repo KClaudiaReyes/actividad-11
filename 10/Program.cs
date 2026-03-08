@@ -10,14 +10,14 @@ namespace _10
     {
         static void Main(string[] args)
         {
-
+            ImprimirRepetido(" programacion",8 );
         }
 
-        static void ImprimirRepetido(string texto, string veces)
+        static void ImprimirRepetido(string texto, int veces)
         {
             for (int i = 0; i < veces ; i++)
             {
-                Console.WriteLine(" TEXTO REPETIDO ");
+                Console.WriteLine(texto);
             }
         }
     }
