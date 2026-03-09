@@ -13,6 +13,7 @@ namespace _24
             int num = 5;
             int result = Factorial(num);
             Console.WriteLine(" El factorial de "+num+ " es: " +result);
+
         }
 
         static int Factorial(int n)
